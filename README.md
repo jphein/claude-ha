@@ -78,9 +78,11 @@ This is appropriate for a **single-household voice assistant**. For multi-tenant
 
 - `provision.sh` — orchestrator
 - `patches/extend_eoac_functions.py` — adds `read_file` + `query_history` to the conversation subentry YAML
+- `patches/voice_prompt.txt` — trimmed system prompt that delegates entity discovery to tool calls (cache-friendly)
 - `workspace-template/` — files seeded into `/config/extended_openai_conversation/`
 - `docs/tools.md` — per-tool reference with example prompts
 - `docs/safety.md` — threat model + hardening
+- `docs/performance.md` — latency stack + Bedrock prompt-caching setup
 
 ## Status
 
