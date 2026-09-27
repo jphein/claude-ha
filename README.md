@@ -91,3 +91,7 @@ Production at home as of 2026-05-14. Tested against:
 - extended_openai_conversation (jekalmin fork)
 - LiteLLM → AWS Bedrock → Claude Opus 4.7
 - M5Stack ATOM Echo voice satellite (ESP-IDF, micro_wake_word)
+
+## License
+
+AGPL-3.0-or-later © 2026 Jeffrey Pine Hein. See [LICENSE](LICENSE).
